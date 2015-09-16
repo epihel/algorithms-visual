@@ -1,0 +1,29 @@
+<!--
+http://jsfiddle.net/epihel/v4txae94/
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Traverse a Matrix from Outside to the Center</title>
+        <link href="matrix.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="matrix.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            var selector = '.matrix';
+            var numRows = 5;
+            var numCols = 5;
+            var boxWidth = 100;
+
+            new com.erikpihel.Matrix(selector, numRows, numCols)
+                .create()
+                .format(boxWidth)
+                .traverse();
+        });
+        </script>
+    </head>
+    <body>
+        <div class="matrix"></div>
+    </body>
+</html>

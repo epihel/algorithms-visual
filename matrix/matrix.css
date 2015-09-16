@@ -1,0 +1,28 @@
+.matrix {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.matrix > div {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+.matrix > div.bottom-border { border-bottom: 1px solid black; }
+.matrix > div.right-border { border-right: 1px solid black; }
+
+.matrix > div.mark > div {
+	background: #08F;
+    border: 2px solid #EE5;
+	border-radius: 50%;
+    font: 32px Arial, sans-serif;
+    height: 36px;
+    margin: 24px 0px 0px 24px;
+    padding: 8px;
+    text-align: center;
+    width: 36px;
+}
