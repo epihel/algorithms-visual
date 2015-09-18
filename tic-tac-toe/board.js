@@ -1,6 +1,10 @@
 if (typeof(com) === 'undefined') { var com = {}; }
 if (typeof(com.erikpihel) === 'undefined') { com.erikpihel = {}; }
 
+/**
+ * Tracks current state of the game board.
+ * @param mark  'X' or 'O'
+ */
 com.erikpihel.Board = function Board(mark) {
 	this.mark = mark;
 	// horizontal or vertical victory if any reach 3:

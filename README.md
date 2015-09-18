@@ -6,3 +6,10 @@ Traverses a matrix from the outside to the center in a spiral. Works with any nu
 
 JS Fiddle demo here:
 [http://jsfiddle.net/epihel/v4txae94/](http://jsfiddle.net/epihel/v4txae94/)
+
+## Tic Tac Toe
+Generates a Tic Tac Toe game, tracks the state of the board, and determines when a player has won.
+
+JS Fiddle demo here:
+[http://jsfiddle.net/epihel/ghczy1wk/](http://jsfiddle.net/epihel/ghczy1wk/)
+

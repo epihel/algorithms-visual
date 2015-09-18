@@ -1,6 +1,10 @@
 if (typeof(com) === 'undefined') { var com = {}; }
 if (typeof(com.erikpihel) === 'undefined') { com.erikpihel = {}; }
 
+/**
+ * A Tic Tac Toe game.
+ * @param selector  the selector for the game's HTML container
+ */
 com.erikpihel.TicTacToe = function TicTacToe(selector) {
 	this.selector = selector;
 	this.board = {
