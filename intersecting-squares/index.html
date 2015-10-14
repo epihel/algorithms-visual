@@ -1,0 +1,28 @@
+<!--
+http://jsfiddle.net/epihel/v4txae94/
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Draws Intersections among Randomly Positioned Squares</title>
+        <link href="../shared.css" rel="stylesheet" type="text/css" />
+        <link href="intersecting-squares.css" rel="stylesheet" type="text/css" />
+        <script src="../jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="intersection.js" type="text/javascript"></script>
+        <script src="square.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            var selector = '.grid';
+            var containerSize = 400;
+            var squareSize = 50;
+            var numSquares = 20;
+
+            new com.erikpihel.Square(selector, containerSize, squareSize).create(numSquares);
+        });
+        </script>
+    </head>
+    <body>
+        <div class="grid"></div>
+    </body>
+</html>

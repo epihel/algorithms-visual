@@ -1,0 +1,18 @@
+div.grid {
+	border: 1px solid black;
+	position: relative;
+}
+
+div.square, div.intersection {
+	border: 1px solid black;
+	opacity: .5;
+	position: absolute;
+}
+
+div.square {
+	background-color: tomato;
+}
+
+div.intersection {
+	background-color: blue;
+}

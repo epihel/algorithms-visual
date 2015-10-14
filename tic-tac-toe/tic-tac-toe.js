@@ -49,8 +49,6 @@ com.erikpihel.TicTacToe.prototype = {
             
             ++numMarked;
         }
-
-        console.log(this.board);
 	},
 
 	// matrix[row][col] = array[col + row*numCols]
